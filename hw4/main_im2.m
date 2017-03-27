@@ -64,3 +64,4 @@ figure;imshow_watershed(im2, im2_watershed2);
 % (7b)(8b) final segmentation & area histogram
 im2_regions2 = regions(im2_watershed2, [120, 3200]);
 figure;imshow_double(im2_regions2.labels);
+

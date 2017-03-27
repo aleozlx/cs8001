@@ -1,9 +1,0 @@
-function [ ] = imshow_watershed( im, watershed )
-R = im(:,:,1); G = im(:,:,2); B = im(:,:,3);
-R(watershed==0) = 255;
-G(watershed==0) = 255;
-B(watershed==0) = 255;
-tmp = 
-imshow(cast(im*255,'uint8'));
-end
-
